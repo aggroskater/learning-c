@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include "config.h"
 
-#ifndef HAVE_SYS_TIME_H
+#ifdef HAVE_SYS_TIME_H
 #include <sys/time.h>
 #else
 #include <time.h>
